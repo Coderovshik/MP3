@@ -1,3 +1,3 @@
-document.onpointermove = () => {
+document.onclick = () => {
     document.querySelector('audio').play();
 }
